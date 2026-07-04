@@ -45,32 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/number-int64-ctor
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var Int64 = require( '@stdlib/number-int64-ctor' );
+import Int64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-int64-ctor@esm/index.mjs';
 ```
 
 #### Int64( value )
@@ -238,8 +220,13 @@ var v = x.valueOf();
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var Int64 = require( '@stdlib/number-int64-ctor' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import Int64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-int64-ctor@esm/index.mjs';
 
 var x = new Int64( 1234 );
 
@@ -262,6 +249,10 @@ console.log( 'str: %s', x );
 
 console.log( 'JSON: %s', JSON.stringify( x ) );
 // => 'JSON: {"type":"Int64","words":[4294967295,4294966062]}'
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -294,7 +285,7 @@ console.log( 'JSON: %s', JSON.stringify( x ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -363,7 +354,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [mdn-json-parse]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
 
-[@stdlib/number/int64/reviver]: https://github.com/stdlib-js/number-int64-reviver
+[@stdlib/number/int64/reviver]: https://github.com/stdlib-js/number-int64-reviver/tree/esm
 
 <!-- <related-links> -->
 
