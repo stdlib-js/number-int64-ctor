@@ -222,7 +222,7 @@ var v = x.valueOf();
 
 ## Notes
 
--   A 64-bit signed integer has a range of \[`-(2^63)`, `2^63-1`\].
+-   A 64-bit signed integer has a range of \[`-(2^63)`, `2^63-1`].
 
 </section>
 
@@ -267,7 +267,6 @@ console.log( 'JSON: %s', JSON.stringify( x ) );
 </section>
 
 <!-- /.examples -->
-
 
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
