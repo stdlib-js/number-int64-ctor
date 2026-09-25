@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-24)
+## Unreleased (2026-09-25)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`e737e90`](https://github.com/stdlib-js/stdlib/commit/e737e9002982713c3533a9a5fe3e0c6a8e7e79ee) - **chore:** clean-up [(#15498)](https://github.com/stdlib-js/stdlib/pull/15498) _(by Philipp Burckhardt)_
 -   [`ed84323`](https://github.com/stdlib-js/stdlib/commit/ed843233c858761842415c563e97928c8045bd67) - **fix:** support full 64-bit integer range for number inputs in `int64/ctor` [(#15477)](https://github.com/stdlib-js/stdlib/pull/15477) _(by Abdul Kaium, Athan Reines)_
 -   [`f468237`](https://github.com/stdlib-js/stdlib/commit/f468237d9d73fb6f65b31db9a8ff51a371ef6a1e) - **docs:** update related packages sections [(#14578)](https://github.com/stdlib-js/stdlib/pull/14578) _(by stdlib-bot)_
 -   [`102ab75`](https://github.com/stdlib-js/stdlib/commit/102ab759f46b0f74505493e86611561e10b5bd17) - **docs:** update related packages sections [(#13460)](https://github.com/stdlib-js/stdlib/pull/13460) _(by stdlib-bot)_
